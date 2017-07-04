@@ -47,12 +47,11 @@ protected List<ReactPackage> getPackages() {
 
 # Usage
 
-Import it in a class like:
-`import LinkText from 'react-native-linktextview';`
-
-Use it like;
-
 ```
+import LinkText from 'react-native-linktextview';
+
+...
+
 <LinkText style={styles.description}>
   <LinkText text={'Do you want to search it on google? '} />
   <LinkText
