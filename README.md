@@ -4,12 +4,14 @@ Ever needed to add url/links inside text in react-native? Here is one convinient
 
 # Installation
 
-Step 1:
-
 Run this command in terminal inside your projects root folder.
+
 `npm install git://github.com/alienslab02/react-native-linktextview.git`
 
-Step 2:
+
+<b>Android</b>
+
+Step 1:
 
 In android/settings.gradle file add following lines
 ```
@@ -17,7 +19,7 @@ include ':react-native-linktextview'
 project(':react-native-linktextview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linktextview/android')
 ```
 
-Step 3:
+Step 2:
 In your android/app/build.gradle file add following line in dependencies.
 ```
 dependencies: {
@@ -26,7 +28,7 @@ dependencies: {
 }
 ```
 
-Step 4:
+Step 3:
 
 In your MainApplication.java located in android/app/src/main/java/com/<your_app>/ folder, add following lines in
 
