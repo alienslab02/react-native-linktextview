@@ -1,6 +1,6 @@
 {
   "name": "react-native-linktextview",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An android-only component to add clickable urls inside a regular Text with support of accessibilty in react native.",
   "main": "LinkText.js",
   "repository": {
