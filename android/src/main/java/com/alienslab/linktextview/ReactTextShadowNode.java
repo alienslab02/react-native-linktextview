@@ -52,7 +52,7 @@ import com.facebook.yoga.YogaDirection;
 import com.facebook.yoga.YogaMeasureFunction;
 import com.facebook.yoga.YogaMeasureMode;
 import com.facebook.yoga.YogaMeasureOutput;
-import com.facebook.yoga.YogaNodeAPI;
+import com.facebook.yoga.YogaNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -238,7 +238,7 @@ public class ReactTextShadowNode extends LayoutShadowNode {
             new YogaMeasureFunction() {
                 @Override
                 public long measure(
-                        YogaNodeAPI node,
+                        YogaNode node,
                         float width,
                         YogaMeasureMode widthMode,
                         float height,
