@@ -6,7 +6,7 @@ Ever needed to add url/links inside text in react-native? Here is one convinient
 
 Run this command in terminal inside your projects root folder.
 
-`npm install git://github.com/alienslab02/react-native-linktextview.git`
+`npm install react-native-linktextview`
 
 
 <b>Android</b>
