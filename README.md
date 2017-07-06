@@ -63,7 +63,7 @@ import LinkText from 'react-native-linktextview';
 ```
 
 #### Result
-`Do you want to search it on Google? [Click here](https://www.google.com/).`
+Do you want to search it on Google? [Click here](https://www.google.com/).
 
 `LinkText` supprts all properties of React-Native `Text` component.
 
